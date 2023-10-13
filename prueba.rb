@@ -80,14 +80,31 @@ saludar
 puts ""
 puts "Condicionales"
 #if-else
+puts "5!=6"
 if 5!=6
-    puts "xd"
+    puts "verdadero"
 else
-    puts "as"
+    puts "falso"
 end
 #elsif
+puts "5<1"
 if 5<1
-    puts "xd"
+    puts "verdadero"
 elsif 5<6
-    puts "as"
+    puts "falso"
+end
+#unless 
+puts "a menos de q 5<5"
+unless 5<5
+    puts "verdadero"
+end
+valor = 2
+#case - when
+case valor
+when 0
+    puts "es 0"
+when 1..10
+    puts "entre 1 y 10"
+when 2
+    puts "es 2"
 end
