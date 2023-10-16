@@ -168,5 +168,13 @@ nombres("daniel","christian","xd","keyller")
 =end
 
 #Rangos y metodos
-puts (1..8).to_a #el metodo to_a convierte el rango en un arreglo para ser mostrado sino solo se mostraria (1..9)
+puts (1..8).to_a #el metodo to_a convierte el rango en un arreglo para ser mostrado sino solo se mostraria (1..8)
 
+rango = (1..5).to_a
+puts rango.min #devuelve el valor menor del rango
+puts rango.max #devuelve el valor maximo del rango
+puts rango.include?(3) #if rango tiene a 3 true else false 
+
+puts (1..3) == 5 #mismo trabajo del .include? verifica si un numero esta en el rango
+
+#FIN DE LO BASICO 
