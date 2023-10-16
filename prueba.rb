@@ -1,4 +1,4 @@
-=beginn
+
 puts"Hola mundo"*2
 #comentario lineal
 puts "adios mundo"
@@ -165,7 +165,7 @@ def nombres (*arg) #crea un array donde se guarda todos los argumentos que se le
 end
 
 nombres("daniel","christian","xd","keyller")
-=end
+
 
 #Rangos y metodos
 puts (1..8).to_a #el metodo to_a convierte el rango en un arreglo para ser mostrado sino solo se mostraria (1..8)
@@ -176,5 +176,12 @@ puts rango.max #devuelve el valor maximo del rango
 puts rango.include?(3) #if rango tiene a 3 true else false 
 
 puts (1..3) == 5 #mismo trabajo del .include? verifica si un numero esta en el rango
+
+#tIPOS DE VARIABLES
+#variable comun => numero =5
+#variable de objeto => @numero 
+#variable de clase => @@numero
+#Constantes => PI = 3.1416
+#variables globales => $numero
 
 #FIN DE LO BASICO 
