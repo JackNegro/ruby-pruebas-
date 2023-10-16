@@ -1,3 +1,4 @@
+#CLASE VEHICULO Y METODOS CON RESPECTO A LAS CLASES Y OBJETOS
 class Vehiculo 
     #Atributos
 
@@ -32,10 +33,13 @@ class Vehiculo
     end
     
 end
+
 #CARRO 1
 carro = Vehiculo.new("rojo", "Ferrari", true)
 carro.mostrarInfo
 #CARRO 2
 carro2 = Vehiculo.new("verde", "Porche", false)
 carro2.mostrarInfo
+
+#puts (carro2.instance_of? String) #El metodo instance_of? pregunta si el objeto pertenece a la clase que se le da
 
