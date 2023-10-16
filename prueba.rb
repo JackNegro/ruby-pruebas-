@@ -1,9 +1,4 @@
-=begin
-esto es 
-un comentario
-multilinea
-=end
-
+=beginn
 puts"Hola mundo"*2
 #comentario lineal
 puts "adios mundo"
@@ -170,4 +165,8 @@ def nombres (*arg) #crea un array donde se guarda todos los argumentos que se le
 end
 
 nombres("daniel","christian","xd","keyller")
- 
+=end
+
+#Rangos y metodos
+puts (1..8).to_a #el metodo to_a convierte el rango en un arreglo para ser mostrado sino solo se mostraria (1..9)
+
