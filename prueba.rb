@@ -1,4 +1,4 @@
-
+=begin
 puts"Hola mundo"*2
 #comentario lineal
 puts "adios mundo"
@@ -183,5 +183,16 @@ puts (1..3) == 5 #mismo trabajo del .include? verifica si un numero esta en el r
 #variable de clase => @@numero
 #Constantes => PI = 3.1416
 #variables globales => $numero
+
+=end
+#Hashes
+#Variable = {identifador => elemento}
+
+hotel = {308=>3,309=>3,405=>4} #numero de habitacion => piso (NO SE DEBE DUPLICAR, SOLO TOMA EL ULTIMO ELEMENTO CON EL ID)
+puts "piso:#{hotel[308]}"
+#puts hotel.length  #Solo toma la existencia de 3 valores/elementos
+
+
+
 
 #FIN DE LO BASICO 
