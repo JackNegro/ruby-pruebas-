@@ -1,4 +1,4 @@
-def encender(motor)
+ def encender(motor)
     if motor==true
         puts "motor esta encendido"
     else
